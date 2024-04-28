@@ -1,22 +1,4 @@
----
-description: RoseVehicles - Physics Vehicles | SpigotMC Plugin
-cover: .gitbook/assets/image_3.png
-coverY: -392.67246376811596
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
+![alt text](https://github.com/EmSockz/Issues-RoseVehicles/blob/main/image_3.png?raw=true)
 
 # 🏡 Home
 
