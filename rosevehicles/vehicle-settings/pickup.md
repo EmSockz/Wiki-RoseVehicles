@@ -24,7 +24,7 @@ The option allows you to enable or disable vehicle pickup on the server
 
 ## Permission
 
-Allows you to set an permission to pickup the vehicle
+Set an permission to pickup the vehicle
 
 ## Owner Only
 
