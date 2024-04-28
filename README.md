@@ -1,4 +1,4 @@
-![alt text](https://github.com/EmSockz/Issues-RoseVehicles/blob/main/image.png?raw=true)
+![alt text](https://github.com/EmSockz/Issues-RoseVehicles/blob/main/image_3.png?raw=true)
 
 # Wiki
 - [Wiki repository of RoseVehicles Spigot plugin](https://emsockz.gitbook.io/rosevehicles/)
