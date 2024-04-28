@@ -1,4 +1,7 @@
-# Wiki-RoseVehicles
+![alt text](https://github.com/EmSockz/Issues-RoseVehicles/blob/main/image.png?raw=true)
+
+# [Wiki](https://emsockz.gitbook.io/rosevehicles/)
 Wiki repository of RoseVehicles Spigot plugin
 
-# GitBook Wiki: [Click](https://emsockz.gitbook.io/rosevehicles/)
+# [Issues](https://github.com/EmSockz/Issues-RoseVehicles)
+Track of issues of my plugin RoseVehicles
