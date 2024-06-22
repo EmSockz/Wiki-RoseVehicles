@@ -24,3 +24,7 @@ Steering:
       Reset: 30.0
       Reset_Key: 0.5
 ```
+
+## [steering-wheel.md](steering-wheel.md "mention")
+
+## [pedals.md](pedals.md "mention")
