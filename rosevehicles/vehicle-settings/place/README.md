@@ -33,7 +33,7 @@ Place:
 
 ## Enable
 
-The option allows you to enable or disable place vehicle on the server
+Enable/Disable this option for vehicle
 
 ## Permission
 

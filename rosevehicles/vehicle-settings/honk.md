@@ -20,7 +20,7 @@ Honk:
 
 ## Enable
 
-Enable or Disable this option for vehicle
+Enable/Disable this option for vehicle
 
 ## Cooldown
 

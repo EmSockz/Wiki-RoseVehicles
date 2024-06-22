@@ -20,7 +20,7 @@ Pickup:
 
 ## Enable
 
-The option allows you to enable or disable vehicle pickup on the server
+Enable/Disable this option for vehicle
 
 ## Permission
 

@@ -17,7 +17,7 @@ Regeneration:
 
 ## Enable
 
-Enable or Disable this option for vehicle
+Enable/Disable this option for vehicle
 
 ## HP Per Regeneration
 

@@ -26,7 +26,7 @@ Place:
 
 ## Enable
 
-Enable/Disable this option
+Enable/Disable this option for vehicle
 
 ## Type
 

@@ -25,7 +25,7 @@ Change_Seat:
 
 ## Enable
 
-Enable or Disable change seats on vehicle
+Enable/Disable change seats on vehicle
 
 ## Cooldown
 
