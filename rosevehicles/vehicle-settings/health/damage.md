@@ -24,5 +24,7 @@ Enable/Disable this option for vehicle
 
 Enable/Disable push back vehicles relative to the amount of damage that has been taken
 
+## Coefficient
 
+Enable/Disable push back vehicles relative to the amount of damage that has been taken
 

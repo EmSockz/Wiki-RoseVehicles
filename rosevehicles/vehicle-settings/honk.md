@@ -28,7 +28,7 @@ Delay to prevent spamming by honk vehicle
 
 ## Permission
 
-Set an permission to lock the vehicle
+Set an permission to honk the vehicle
 
 ## Events
 
@@ -36,6 +36,6 @@ Events related to the module.  [Click to get more information about events](../e
 
 List of events:
 
-* No\_Permission
+* No Permission
 * Cooldown
 * Honk

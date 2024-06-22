@@ -27,6 +27,6 @@ Events related to the module.  [Click to get more information about events](../.
 
 List of events:
 
-* Vehicle\_Is\_Locked
-* Seat\_Is\_Taken
-* Enter\_Vehicle
+* Vehicle is locked
+* Seat is taken
+* Enter vehicle

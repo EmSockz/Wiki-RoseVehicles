@@ -38,7 +38,7 @@ Events related to the module.  [Click to get more information about events](../e
 
 List of events:
 
-* No\_Permission
+* No permission
 * Cooldown
 * Lock
 * Unlock

@@ -36,16 +36,14 @@ Type of list. BLACKLIST or WHITELIST
 
 List of blocks
 
-
-
 ## Events
 
 Events related to the module. [Click to get more information about events](../../events-mechanics/)
 
 List of events:
 
-* Block\_In\_Whitelist
-* No\_Block\_In\_Whitelist
-* Block\_In\_Blacklist
-* No\_Block\_In\_Blacklist
+* Block in whitelist
+* No block in whitelist
+* Block in blacklist
+* No block in blacklist
 

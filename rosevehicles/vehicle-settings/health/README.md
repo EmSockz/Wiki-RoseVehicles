@@ -42,5 +42,17 @@ The amount of maximum HP a vehicle can have
 
 The starting amount of HP a vehicle has when it is created.
 
+## Events
+
+Events related to the module.  [Click to get more information about events](../../events-mechanics/)
+
+List of events:
+
+* Explosive
+* Damage vehicle
 
 
+
+## [damage.md](damage.md "mention")
+
+## [regeneration.md](regeneration.md "mention")

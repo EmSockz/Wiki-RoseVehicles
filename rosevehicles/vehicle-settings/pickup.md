@@ -28,8 +28,7 @@ Set an permission to pickup the vehicle
 
 ## Owner Only
 
-Allow only the owner of the vehicle to pickup\
-
+Allow only the owner of the vehicle to pickup
 
 ## Events
 
@@ -37,6 +36,6 @@ Events related to the module.  [Click to get more information about events](../e
 
 List of events:
 
-* No\_Permission
-* Owner\_Only
-* Pickup\_Vehicle
+* No Permission
+* Owner Only
+* Pickup Vehicle

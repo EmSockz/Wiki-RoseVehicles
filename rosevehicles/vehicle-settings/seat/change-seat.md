@@ -17,10 +17,9 @@ Change_Seat:
     Cooldown:
       Mechanics: []
     No_Free_Seat:
-      Mechanics:
+      Mechanics: []
     Changed_Seat:
-      Mechanics:
-      
+      Mechanics: []
 ```
 
 ## Enable
@@ -49,7 +48,7 @@ Events related to the module.  [Click to get more information about events](../.
 
 List of events:
 
-* No\_Permission
+* No permission
 * Cooldown
-* No\_Free\_Seats
-* Changed Seat
+* No free seats
+* Changed seat

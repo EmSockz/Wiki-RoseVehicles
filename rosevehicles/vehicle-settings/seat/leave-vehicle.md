@@ -8,8 +8,7 @@ description: Configuring leave in to vehicle
     Leave_Vehicle:
       Events:
         Leave_Vehicle:
-          Mechanics:
-          
+          Mechanics: []
 ```
 
 ## Events
@@ -18,4 +17,4 @@ Events related to the module.  [Click to get more information about events](../.
 
 List of events:
 
-* Leave\_Vehicle
+* Leave vehicle

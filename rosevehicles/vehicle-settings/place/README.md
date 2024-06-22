@@ -37,8 +37,7 @@ Enable/Disable this option for vehicle
 
 ## Permission
 
-Allows you to set an permission to place the vehicle\
-
+Allows you to set an permission to place the vehicle
 
 ## Events
 
@@ -46,12 +45,9 @@ Events related to the module.  [Click to get more information about events](../.
 
 List of events:
 
-* No\_Permission
-* Place\_Vehicle
+* No Permission
+* Place Vehicle
 
 ## Blocks
 
 Use the [Blocks ](blocks.md)wiki page.
-
-
-

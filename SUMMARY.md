@@ -19,8 +19,11 @@
   * [Health](rosevehicles/vehicle-settings/health/README.md)
     * [Damage](rosevehicles/vehicle-settings/health/damage.md)
     * [Regeneration](rosevehicles/vehicle-settings/health/regeneration.md)
-  * [Fuel](rosevehicles/vehicle-settings/fuel.md)
-  * [Trunk](rosevehicles/vehicle-settings/trunk.md)
+  * [Fuel](rosevehicles/vehicle-settings/fuel/README.md)
+    * [Refueling](rosevehicles/vehicle-settings/fuel/refueling.md)
+  * [Trunk](rosevehicles/vehicle-settings/trunk/README.md)
+    * [Open Trunk](rosevehicles/vehicle-settings/trunk/open-trunk.md)
+    * [Inventory Trunk](rosevehicles/vehicle-settings/trunk/inventory-trunk.md)
   * [Engine](rosevehicles/vehicle-settings/engine.md)
   * [Parking Brake](rosevehicles/vehicle-settings/parking-brake.md)
   * [GearBox](rosevehicles/vehicle-settings/gearbox.md)
@@ -41,6 +44,7 @@
 * [💻 Events, Mechanics](rosevehicles/events-mechanics/README.md)
   * [Mechanics](rosevehicles/events-mechanics/mechanics.md)
   * [Conditions](rosevehicles/events-mechanics/conditions.md)
+* [🗜️ Item Serializer](rosevehicles/item-serializer.md)
 
 ## 🚽 RoseCore
 
