@@ -6,7 +6,7 @@ description: Setting engine for vehicle
 
 ```yaml
 Engine:
-  Type: volga_engine
+  Type: example_engine
   Sound:
     Enable: true
     Volume:
@@ -21,7 +21,13 @@ Engine:
       Max_Pitch: 1.2
     Max_Sub_Sound: 100
     Sound:
-      Name: "vehicle.engine_2d2."
+      Name: "vehicle.engine."
       Category: AMBIENT
       Duration: 190
 ```
+
+## Type
+
+Engine type used for this vehicle. [See ](../../engine-settings.md)[engine-settings.md](../../engine-settings.md "mention")
+
+## [engine-sound.md](engine-sound.md "mention")

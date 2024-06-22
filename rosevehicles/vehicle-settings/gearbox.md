@@ -11,3 +11,7 @@ GearBox:
     Change_Gear:
       Mechanics:
 ```
+
+## Type
+
+Gearbox type used for this vehicle. [See ](../gearbox-settings.md)[gearbox-settings.md](../gearbox-settings.md "mention")
