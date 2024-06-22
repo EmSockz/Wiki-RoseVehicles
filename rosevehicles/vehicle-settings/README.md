@@ -59,7 +59,7 @@ Here is the complete list of modules (You can also see this on the sidebar on th
    2\. [Leave vehicle](seat/leave-vehicle.md)\
    3\. [Change seat](seat/change-seat.md)
 6. [Honk](honk.md)
-7. [Health](health.md)
+7. [Health](health/)
 8. [Fuel](fuel.md)
 9. [Trunk](trunk.md)
 10. [Engine](engine.md)
