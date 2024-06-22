@@ -31,7 +31,7 @@
     * [Steering wheel](rosevehicles/vehicle-settings/steering/steering-wheel.md)
     * [Pedals](rosevehicles/vehicle-settings/steering/pedals.md)
   * [Movement](rosevehicles/vehicle-settings/movement/README.md)
-    * [Lock Camera](rosevehicles/vehicle-settings/movement/lock-camera.md)
+    * [Lock the Camera](rosevehicles/vehicle-settings/movement/lock-camera.md)
     * [Physics](rosevehicles/vehicle-settings/movement/physics.md)
     * [Wheels](rosevehicles/vehicle-settings/movement/wheels.md)
   * [Components](rosevehicles/vehicle-settings/components.md)
@@ -41,10 +41,10 @@
 * [⛽ Fuel Settings](rosevehicles/fuel-settings.md)
 * [📟 Gearbox Settings](rosevehicles/gearbox-settings.md)
 * [🚂 Engine Settings](rosevehicles/engine-settings.md)
+* [🗜️ Item Serializer](rosevehicles/item-serializer.md)
 * [💻 Events, Mechanics](rosevehicles/events-mechanics/README.md)
   * [Mechanics](rosevehicles/events-mechanics/mechanics.md)
   * [Conditions](rosevehicles/events-mechanics/conditions.md)
-* [🗜️ Item Serializer](rosevehicles/item-serializer.md)
 
 ## 🚽 RoseCore
 

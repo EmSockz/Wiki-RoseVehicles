@@ -1,5 +1,5 @@
 ---
-description: Irtem Serializer item from config
+description: Item Serializer item from config
 ---
 
 # 🗜️ Item Serializer
