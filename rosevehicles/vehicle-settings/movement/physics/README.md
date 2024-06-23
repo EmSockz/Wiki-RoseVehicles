@@ -13,7 +13,7 @@ Physics:
       Linear: 3.8
       Angular: 3.1
   Body:
-    Mass: 1550.0 #КГ. Масса (Автоматически учитывается так-же масса с пассажирами и топливом)
+    Mass: 1550.0 #КГ.
     Collision:
       CCD_Motion_Threshold: 0.5
       CCD_Swept_Sphere_Radius: 0.8

@@ -70,7 +70,7 @@ Here is the complete list of modules (You can also see this on the sidebar on th
     2\. [Pedals](steering/pedals.md)
 14. [Movement](movement/)\
     1\. [Lock camera](movement/lock-camera.md)\
-    2\. [Physics](movement/physics.md)\
+    2\. [Physics](movement/physics/)\
     3\. [Wheels](movement/wheels.md)
 15. [Components](components.md)\
     1\. Skins\
