@@ -36,28 +36,28 @@ Wheels:
       Max_Angle: 0.0 #deg Максимальный поворот
 
   wheel_1:
-    Offset: "0.86 0.0 1.75" #Локация колеса. В каком месте транспорта оно.
+    Offset: "0.86 0.0 1.75"
     Steering: UNUSED
     Brake: 500
-    Rotate: #Поворот колеса
-      Enable: true #Включен ли поворот колеса
-      Max_Angle: 38.0 #deg Максимальный поворот
+    Rotate:
+      Enable: true
+      Max_Angle: 38.0
 
   wheel_2:
-    Offset: "-0.86 0.0 1.75" #Локация колеса. В каком месте транспорта оно.
+    Offset: "-0.86 0.0 1.75"
     Steering: UNUSED
     Brake: 500
-    Rotate: #Поворот колеса
-      Enable: true #Включен ли поворот колеса
-      Max_Angle: 38.0 #deg Максимальный поворот
+    Rotate:
+      Enable: true
+      Max_Angle: 38.0
 
   wheel_3:
-    Offset: "0.86 0.0 -1.75" #Локация колеса. В каком месте транспорта оно.
+    Offset: "0.86 0.0 -1.75"
     Brake: 1000
     Steering: DIRECT
 
   wheel_4:
-    Offset: "-0.86 0.0 -1.75" #Локация колеса. В каком месте транспорта оно.
+    Offset: "-0.86 0.0 -1.75"
     Brake: 1000
     Steering: DIRECT
 ```

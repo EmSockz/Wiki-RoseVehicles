@@ -52,8 +52,9 @@
 
 ## 🚽 RoseCore
 
-* [⚙️ Config](rosecore/config.md)
-* [Page](rosecore/page.md)
+* [⚙️ Plugin Config](rosecore/config.md)
+* [Serializers](rosecore/serializers/README.md)
+  * [Particle Serializer](rosecore/serializers/particle-serializer.md)
 
 ## 🧾 ARTICLES
 
