@@ -53,6 +53,7 @@
 ## 🚽 RoseCore
 
 * [⚙️ Config](rosecore/config.md)
+* [Page](rosecore/page.md)
 
 ## 🧾 ARTICLES
 
