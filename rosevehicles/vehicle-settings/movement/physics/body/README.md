@@ -10,16 +10,17 @@ description: Setting body physics
     Collision:
       CCD_Motion_Threshold: 0.5
       CCD_Swept_Sphere_Radius: 0.8
-      Restitution: 0.1 #Прыгучесть
+      Restitution: 0.1
       Friction:
         Friction: 1.0
         Rolling: 1.06
         Spinning: 1.05
       Factor:
-        Angular: 0.10 #Ускорение угловой скорости
+        Angular: 0.10
+        Linear: 0.10
       Damping:
-        Linear: 0.003 #Замедление линейной скорости
-        Angular: 0.20 #Замедление угловой скорости
+        Angular: 0.20
+        Linear: 0.03
       Bounding_Boxes:
         box1:
           Type: BOX
@@ -69,6 +70,26 @@ If both bodies were made of hard, springy steel, they might separate without los
 
 In reality, no collision is perfectly elastic. Elasticity is quantified by a _coefficient of restitution_, which ranges from zero (perfectly inelastic) to one (perfectly elastic).
 
-In simulation, collisions are inelastic by default. (We saw this in [HelloRigidBody.java](https://github.com/stephengold/Minie/blob/master/TutorialApps/src/main/java/jme3utilities/tutorial/HelloRigidBody.java).) Each rigid body has a _restitution parameter_, which defaults to zero. For each collision, the coefficient of restitution is calculated by multiplying the parameters of the colliding bodies.
+In simulation, collisions are inelastic by default. Each rigid body has a _restitution parameter_, which defaults to zero. For each collision, the coefficient of restitution is calculated by multiplying the parameters of the colliding bodies.
 
-To simulate a perfectly elastic collision, set the restitution parameters of both bodies to one:\
+To simulate a perfectly elastic collision, set the restitution parameters of both bodies to 1.
+
+## Friction
+
+While restitution models contact forces parallel to the contact normal, _friction_ models contact forces orthogonal to the contact normal.
+
+Each rigid body has a _friction parameter_ (which defaults to 0.5). This parameter hints at the body’s surface characteristics. Reducing a body’s friction parameter makes it more slippery (think wet ice). Increasing it yields better traction (think sandpaper or dry rubber).
+
+For each collision, a _coefficient of friction_ is calculated by multiplying the parameters of the colliding bodies.
+
+## Factor
+
+All forces, torques, and impulses acting on dynamic rigid bodies are multiplied by _factors_ that can be configured for each body.
+
+## Damping
+
+In the absence of external forces, inertia would keep the velocities of a dynamic body constant. In the real world, however, we’re accustomed to seeing unpowered moving objects eventually come to rest. This behavior is often caused by _drag forces_ (such as air resistance) that increase with speed.
+
+To simulate drag forces, each rigid body has _damping_, which quantifies how quickly its motion decays to zero, assuming the body is dynamic.
+
+More precisely, each body has 2 damping parameters: _linear damping_ and _angular damping_, each of which ranges from zero (no drag) to one (motion ceases immediately). Linear damping damps the linear velocity, and angular damping damps the angular velocity.

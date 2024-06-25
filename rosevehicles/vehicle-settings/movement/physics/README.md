@@ -9,24 +9,25 @@ Physics:
   Sleep:
     Enable: true
     Sleeping_Start_Time: 2.0
-    Sleeping_Thresholds: #Порог после которого активируется физика.
-      Linear: 3.8
-      Angular: 3.1
+    Sleeping_Thresholds:
+      Linear: 0.8
+      Angular: 1.0
   Body:
-    Mass: 1550.0 #КГ.
+    Mass: 1550.0
     Collision:
       CCD_Motion_Threshold: 0.5
       CCD_Swept_Sphere_Radius: 0.8
-      Restitution: 0.1 #Прыгучесть
+      Restitution: 0.1
       Friction:
         Friction: 1.0
         Rolling: 1.06
         Spinning: 1.05
       Factor:
-        Angular: 0.10 #Ускорение угловой скорости
+        Angular: 0.10
+        Linear: 0.0
       Damping:
-        Linear: 0.003 #Замедление линейной скорости
-        Angular: 0.20 #Замедление угловой скорости
+        Linear: 0.003
+        Angular: 0.20
       Bounding_Boxes:
         box1:
           Type: BOX
@@ -46,4 +47,4 @@ Physics:
 
 ## [sleep.md](sleep.md "mention")
 
-## /
+## [body](body/ "mention")
