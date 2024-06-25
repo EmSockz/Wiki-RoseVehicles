@@ -47,4 +47,4 @@ Physics:
 
 ## [sleep.md](sleep.md "mention")
 
-## [body](body/ "mention")
+## [body.md](body.md "mention")

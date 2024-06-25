@@ -17,7 +17,7 @@ example_box_two:
   Max: "1.0 0.5 2.0"
 ```
 
-is a virtual box that is used to represent the boundaries of an object's physical body in three-dimensional space. It defines the space occupied by the object and is used for various calculations such as collisions, intersection detection.
+Is a virtual box that is used to represent the boundaries of an object's physical body in three-dimensional space. It defines the space occupied by the object and is used for various calculations such as collisions, intersection detection.
 
 ### Center
 

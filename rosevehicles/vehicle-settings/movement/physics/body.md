@@ -6,7 +6,7 @@ description: Setting body physics
 
 ```yaml
   Body:
-    Mass: 1550.0 #КГ.
+    Mass: 1550.0
     Collision:
       CCD_Motion_Threshold: 0.5
       CCD_Swept_Sphere_Radius: 0.8
@@ -22,25 +22,23 @@ description: Setting body physics
         Angular: 0.20
         Linear: 0.03
       Bounding_Boxes:
-        box1:
-          Type: BOX
+        example_box_one:
           Center: "0.0 0.4 0.0"
-          Width: 0.9
-          Height: 0.1
+          Width: 1.0
+          Height: 0.5
           Length: 2.3
-        box2:
-          Type: BOX
-          Center: "0.0 0.4 0.0"
-          Width: 0.89
-          Height: 0.2
+        example_box_two:
+          Center: "0.0 0.7 0.0"
+          Width: 0.9
+          Height: 0.5
           Length: 1.0
 ```
 
-### Mass
+## Mass
 
 The weight of the vehicle in kilograms.
 
-### Continuous collision detection (CCD) <a href="#continuous_collision_detection" id="continuous_collision_detection"></a>
+## Continuous collision detection (CCD)
 
 When simulating physics in a game or animation, a fast-moving object can sometimes pass through thin obstacles without any collision being detected. This happens because the object moves so quickly that it skips over the obstacle in a single simulation step.
 
@@ -60,7 +58,7 @@ By enabling CCD only when needed and fine-tuning its settings, you can ensure ac
 
 **`CCD_Motion_Threshold`** - Distance per time step
 
-### Restitution
+## Restution
 
 When responsive rigid bodies collide, contact forces come into play, altering their velocities. These forces are split into 2 components: restitution and friction.\
 \
@@ -93,3 +91,9 @@ In the absence of external forces, inertia would keep the velocities of a dynami
 To simulate drag forces, each rigid body has _damping_, which quantifies how quickly its motion decays to zero, assuming the body is dynamic.
 
 More precisely, each body has 2 damping parameters: _linear damping_ and _angular damping_, each of which ranges from zero (no drag) to one (motion ceases immediately). Linear damping damps the linear velocity, and angular damping damps the angular velocity.
+
+## Bounding Boxes
+
+Is a virtual boxes that is used to represent the boundaries of an object's physical body in three-dimensional space. It defines the space occupied by the object and is used for various calculations such as collisions, intersection detection.
+
+### [boundingbox.md](body/boundingbox.md "mention")

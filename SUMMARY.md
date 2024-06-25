@@ -35,7 +35,7 @@
     * [Lock the Camera](rosevehicles/vehicle-settings/movement/lock-camera.md)
     * [Physics](rosevehicles/vehicle-settings/movement/physics/README.md)
       * [Sleep](rosevehicles/vehicle-settings/movement/physics/sleep.md)
-      * [Body](rosevehicles/vehicle-settings/movement/physics/body/README.md)
+      * [Body](rosevehicles/vehicle-settings/movement/physics/body.md)
         * [BoundingBox](rosevehicles/vehicle-settings/movement/physics/body/boundingbox.md)
     * [Wheels](rosevehicles/vehicle-settings/movement/wheels.md)
   * [Components](rosevehicles/vehicle-settings/components.md)
