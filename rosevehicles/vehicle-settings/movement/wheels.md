@@ -20,20 +20,20 @@ Wheels:
       Start_When: 0.1
       Particles:
         - "CAMPFIRE_SIGNAL_SMOKE 3 0.0 0.0 0.0 0.0"
-    Suspension: #Подвеска
-      Max_Force: 5000.0 #Сила подвески
-      Rest_Length: 0.4 #Длина подвески
-      Stiffness: 2.3 #Жесткость подвески.
-      Max_Travel: 1400.0 #Максимальный ход подвески в см.
-      Direction: "0.0 -1.0 0.0" #Направление подвески
+    Suspension:
+      Max_Force: 5000.0
+      Rest_Length: 0.4
+      Stiffness: 2.3
+      Max_Travel: 1400.0
+      Direction: "0.0 -1.0 0.0"
       Damping:
         Compression: 0.5
         Relaxation: 0.4
-    Rotate: #Поворот колеса
-      Enable: false #Включен ли поворот колеса
-      Speed: 0.0 #deg/sec Скорость поворота
-      Speed_Reset: 0.0 #deg/sec Скорость возвращения колеса
-      Max_Angle: 0.0 #deg Максимальный поворот
+    Rotate:
+      Enable: false
+      Speed: 0.0
+      Speed_Reset: 0.0
+      Max_Angle: 0.0
 
   wheel_1:
     Offset: "0.86 0.0 1.75"
@@ -67,6 +67,10 @@ Set the physical parameters of each wheel. Default Settings are the settings tha
 ## Radius, Model Radius, Width
 
 Setting the radius of the wheel. In the realities of minecraft it should be a bit larger than in the real world, simply because the world of minecraft is made of cubes. Model Radius should specify the radius of the wheel in the context of the model, you need this parameter to correctly calculate the wheel animation
+
+## Offset
+
+The offset of the wheel relative to the center of the vehicle, measured in three-dimensional coordinates (x, y, z). If the offset is set incorrectly, the wheel may not be positioned correctly, which can lead to problems with vehicle handling and stability.
 
 ## Axle Direction
 
@@ -134,7 +138,7 @@ _Stiffness_ is the force exerted by a spring divided by its change in length. If
 
 ### Max Travel
 
-the desired maximum amount the suspension can be compressed or expanded, relative to its rest length (in hundredths of a physics-space unit, default=500)
+The desired maximum amount the suspension can be compressed or expanded, relative to its rest length (in hundredths of a physics-space unit, Default value - 500 cm)
 
 ### Direction
 
