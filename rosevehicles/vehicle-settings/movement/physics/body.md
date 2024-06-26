@@ -5,33 +5,33 @@ description: Setting body physics
 # Body
 
 ```yaml
-  Body:
-    Mass: 1550.0
-    Collision:
-      CCD_Motion_Threshold: 0.5
-      CCD_Swept_Sphere_Radius: 0.8
-      Restitution: 0.1
-      Friction:
-        Friction: 1.0
-        Rolling: 1.06
-        Spinning: 1.05
-      Factor:
-        Angular: 0.10
-        Linear: 0.10
-      Damping:
-        Angular: 0.20
-        Linear: 0.03
-      Bounding_Boxes:
-        example_box_one:
-          Center: "0.0 0.4 0.0"
-          Width: 1.0
-          Height: 0.5
-          Length: 2.3
-        example_box_two:
-          Center: "0.0 0.7 0.0"
-          Width: 0.9
-          Height: 0.5
-          Length: 1.0
+Body:
+  Mass: 1550.0
+  Collision:
+    CCD_Motion_Threshold: 0.5
+    CCD_Swept_Sphere_Radius: 0.8
+    Restitution: 0.1
+    Friction:
+      Friction: 1.0
+      Rolling: 1.06
+      Spinning: 1.05
+    Factor:
+      Angular: 0.10
+      Linear: 0.10
+    Damping:
+      Angular: 0.20
+      Linear: 0.03
+    Bounding_Boxes:
+      example_box_one:
+        Center: "0.0 0.4 0.0"
+        Width: 1.0
+        Height: 0.5
+        Length: 2.3
+      example_box_two:
+        Center: "0.0 0.7 0.0"
+        Width: 0.9
+        Height: 0.5
+        Length: 1.0
 ```
 
 ## Mass

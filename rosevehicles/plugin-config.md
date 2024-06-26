@@ -22,7 +22,7 @@ World: # World Settings
     Max_Removal_Radius: 2048.0 # Max Radius
   Load_Vehicles: # Load vehicles settings
     Check_Entities_In_Radius: 8.0 # Radius check sub-entities
-    Use_Old_Chunk_System: false # Old chunk system (Spigotmc)
+    Use_Old_Chunk_System: false # Old chunk system (Spigot)
   Disabled_Worlds: # disabled worlds for vehicles
     - 'world1'
     - 'world2'
@@ -60,5 +60,5 @@ General: # General settings
   Сreate_Default_Files: true # Enable/Disable create default files
 ```
 
-**Lang** - Plugin language used (Available ru, en, uk)\
+**Lang** - Plugin language used (Available en, uk)\
 **Сreate\_Default\_Files** - Whether to create default plugin files. Examples of vehicles, gearbox, fuel, engine. The resourcepack is always created without depending on this option
