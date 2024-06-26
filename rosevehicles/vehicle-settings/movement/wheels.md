@@ -26,9 +26,9 @@ Wheels:
       Stiffness: 2.3 #Жесткость подвески.
       Max_Travel: 1400.0 #Максимальный ход подвески в см.
       Direction: "0.0 -1.0 0.0" #Направление подвески
-      Damping: #демпфирование подвески колеса
-        Compression: 0.5 #Демпфирование колеса при сжатии подвески
-        Relaxation: 0.4 #Демпфирование колеса при расширении подвески
+      Damping:
+        Compression: 0.5
+        Relaxation: 0.4
     Rotate: #Поворот колеса
       Enable: false #Включен ли поворот колеса
       Speed: 0.0 #deg/sec Скорость поворота
@@ -110,10 +110,69 @@ Setting the appearance of smoke from the wheels. Start When: \[0.0-1.0] Smoke th
 \
 **Particles:**
 
-[Particle Serializer](../../../rosecore/serializers/particle-serializer.md)
-
-
+[Particle Serialize](../../../rosecore/serializers/particle-serializer.md)
 
 ## Suspension
 
-Setting the suspension of the vehicle.\
+Setting the suspension of the vehicle.
+
+### Maximum Force
+
+A vehicle’s _suspension_ connects its wheels to its chassis and supports the weight of the chassis. If the maximum suspension force is set too low, the suspension will collapse, causing the chassis to scrape the ground.
+
+The default maximum suspension force is 6000 per wheel. For a vehicle with 4 wheels and a mass of 3000, the default is inadequate for a gravitational acceleration of 8 or more, even if the weight of the chassis is distributed evenly among the wheels.
+
+If the weight is distributed unevenly, some of the maxima might need to be increased even more.
+
+### Rest Length
+
+_Rest length_ is the length of a spring when no force is applied to it. If the suspension’s rest lengths are too large, the chassis will seem to be jacked up on stilts and the vehicle will be prone to tipping, even when not moving.
+
+### Stiffness
+
+_Stiffness_ is the force exerted by a spring divided by its change in length. If the suspension is too stiff, a small bump could cause the vehicle to bounce violently. If it isn’t stiff enough, a large bump could cause the chassis to "bottom out".
+
+### Max Travel
+
+the desired maximum amount the suspension can be compressed or expanded, relative to its rest length (in hundredths of a physics-space unit, default=500)
+
+### Direction
+
+Suspension direction. default is down (0 -1 0). Format - `Direction: "x y z"`
+
+### Damping
+
+Each wheel has 2 suspension damping parameters, one for expansion and one for compression. The range of plausible values depends on the suspension stiffness, according to the formula in the javadoc:
+
+```java
+damping = 2 * k * FastMath.sqrt(stiffness);
+```
+
+where k is the suspension’s _damping ratio_:
+
+* k = 0: undamped and bouncy.
+* k = 1: critically damped.
+
+Good values of k are between 0.1 and 0.3.
+
+The default damping parameters of 0.83 and 0.88 are suitable for a chassis with the default stiffness of 5.88 (k=0.171 and 0.181, respectively). If you override the default stiffness, you should override the damping parameters as well.
+
+## Rotate
+
+Setting the wheel rotation
+
+### Enable
+
+Option that specifies whether wheel rotation is enabled. Default value: `false`
+
+### Rotate Speed
+
+The rate at which the wheel rotates, measured in degrees per second (deg/sec). If the rotation speed is set too low, the wheel will rotate slowly or not at all. Default value: `0.0`
+
+### Rotate Speed Reset
+
+The speed at which the wheel returns to the starting position, measured in degrees per second (deg/sec). If the return speed is set too low, the wheel will return to the starting position slowly, which may affect the handling of the vehicle. Default value: `0.0`
+
+### Max Angle
+
+The maximum steering angle of the wheel, measured in degrees (deg). If the maximum steering angle is set too low, it will be difficult for the wheel to turn enough to steer the vehicle effectively. Default value: `0.0`
