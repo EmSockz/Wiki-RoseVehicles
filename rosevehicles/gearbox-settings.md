@@ -1,2 +1,0 @@
-# 📟 Gearbox Settings
-

@@ -14,6 +14,5 @@ Models:
   example_steering_wheel: <Item Serializer>
 ```
 
-List of models that are available for use in this vehicle. Models used in [Display Components](components/entity-settings.md#displays)
-
-To create an ItemStack is used: [item-serializer.md](../item-serializer.md "mention")
+List of models that are available for use in this vehicle. Models used in [Display Components](components/entity-settings.md#displays)\
+To create an ItemStack is used: [item-serializer.md](../serializers/item-serializer.md "mention")

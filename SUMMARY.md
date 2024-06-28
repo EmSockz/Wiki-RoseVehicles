@@ -45,18 +45,20 @@
   * [Models](rosevehicles/vehicle-settings/models.md)
   * [Item](rosevehicles/vehicle-settings/item.md)
 * [⛽ Fuel Settings](rosevehicles/fuel-settings.md)
-* [📟 Gearbox Settings](rosevehicles/gearbox-settings.md)
+* [📟 Gearbox Settings](rosevehicles/gearbox-settings/README.md)
+  * [Gear](rosevehicles/gearbox-settings/gear.md)
 * [🚂 Engine Settings](rosevehicles/engine-settings.md)
-* [🗜️ Item Serializer](rosevehicles/item-serializer.md)
 * [💻 Events, Mechanics](rosevehicles/events-mechanics/README.md)
   * [Mechanics](rosevehicles/events-mechanics/mechanics.md)
   * [Conditions](rosevehicles/events-mechanics/conditions.md)
+* [📱 Placeholders](rosevehicles/placeholders.md)
+* [🪤 Serializers](rosevehicles/serializers/README.md)
+  * [Particle Serializer](rosevehicles/serializers/particle-serializer.md)
+  * [Item Serializer](rosevehicles/serializers/item-serializer.md)
 
 ## 🚽 RoseCore
 
 * [⚙️ Plugin Config](rosecore/config.md)
-* [Serializers](rosecore/page.md)
-  * [Particle Serializer](rosecore/serializers/particle-serializer.md)
 
 ## 🧾 ARTICLES
 

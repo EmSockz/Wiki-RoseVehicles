@@ -114,7 +114,7 @@ Setting the appearance of smoke from the wheels. Start When: \[0.0-1.0] Smoke th
 \
 **Particles:**
 
-[Particle Serialize](../../../rosecore/serializers/particle-serializer.md)
+[Particle Serialize](../../serializers/particle-serializer.md)
 
 ## Suspension
 

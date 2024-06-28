@@ -13,7 +13,7 @@ GearBox:
 
 ## Type
 
-Gearbox type used for this vehicle. [See ](../gearbox-settings.md)[gearbox-settings.md](../gearbox-settings.md "mention")
+Gearbox type used for this vehicle. [See ](../gearbox-settings/)[gearbox-settings](../gearbox-settings/ "mention")
 
 ## Events
 

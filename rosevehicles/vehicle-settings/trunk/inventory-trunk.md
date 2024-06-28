@@ -34,4 +34,4 @@ We use[ MiniMessage](https://docs.advntr.dev/minimessage/format.html) to parse m
 ## Barriers
 
 * Enable -> Enable/Disable use barriers for block unused slots
-* Item -> <[Item Serializer](../../item-serializer.md)> Settings barrier item.&#x20;
+* Item -> <[Item Serializer](../../serializers/item-serializer.md)> Settings barrier item.&#x20;

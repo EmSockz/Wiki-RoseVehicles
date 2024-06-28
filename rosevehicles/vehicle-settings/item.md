@@ -14,6 +14,5 @@ Item:
 Item: <Item Serializer>
 ```
 
-Customize the ItemStack vehicle that is used in the player's inventory
-
-To create an ItemStack is used: [item-serializer.md](../item-serializer.md "mention")
+Customize the ItemStack vehicle that is used in the player's inventory\
+To create an ItemStack is used: [item-serializer.md](../serializers/item-serializer.md "mention")
