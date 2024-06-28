@@ -72,7 +72,7 @@ Here is the complete list of modules (You can also see this on the sidebar on th
     1\. [Lock camera](movement/lock-camera.md)\
     2\. [Physics](movement/physics/)\
     3\. [Wheels](movement/wheels.md)
-15. [Components](components.md)\
+15. [Components](components/)\
     1\. Skins\
     2\. Seats\
     3\. Wheels\

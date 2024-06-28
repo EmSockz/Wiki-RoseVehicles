@@ -62,7 +62,7 @@ Wheels:
     Steering: DIRECT
 ```
 
-Set the physical parameters of each wheel. Default Settings are the settings that will be applied to the wheel if these parameters are missing. Each wheel must have the same name as in [Components](../components.md)
+Set the physical parameters of each wheel. Default Settings are the settings that will be applied to the wheel if these parameters are missing. Each wheel must have the same name as in [Components](../components/)
 
 ## Radius, Model Radius, Width
 

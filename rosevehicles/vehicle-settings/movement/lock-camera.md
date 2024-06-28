@@ -39,7 +39,7 @@ Enable/Disable this option
 
 ## Seats
 
-Setting up each seat. <mark style="color:yellow;">**Notice**</mark> that the seat must match the name of the seat in [Components](../components.md)
+Setting up each seat. <mark style="color:yellow;">**Notice**</mark> that the seat must match the name of the seat in [Components](../components/)
 
 ### &#x20;   Start Rotation
 
