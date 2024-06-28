@@ -48,7 +48,7 @@
 * [📟 Gearbox Settings](rosevehicles/gearbox-settings/README.md)
   * [Gear](rosevehicles/gearbox-settings/gear.md)
 * [🚂 Engine Settings](rosevehicles/engine-settings.md)
-* [💻 Events, Mechanics](rosevehicles/events-mechanics/README.md)
+* [💻 Mechanics](rosevehicles/events-mechanics/README.md)
   * [Mechanics](rosevehicles/events-mechanics/mechanics.md)
   * [Conditions](rosevehicles/events-mechanics/conditions.md)
 * [📱 Placeholders](rosevehicles/placeholders.md)
