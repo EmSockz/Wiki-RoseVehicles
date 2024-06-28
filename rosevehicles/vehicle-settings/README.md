@@ -59,10 +59,16 @@ Here is the complete list of modules (You can also see this on the sidebar on th
    2\. [Leave vehicle](seat/leave-vehicle.md)\
    3\. [Change seat](seat/change-seat.md)
 6. [Honk](honk.md)
-7. [Health](health/)
-8. [Fuel](fuel/)
-9. [Trunk](trunk/)
-10. [Engine](engine/)
+7. [Health](health/)\
+   1\. [Damage](health/damage.md)\
+   2\. [Regeneration](health/regeneration.md)
+8. [Fuel](fuel/)\
+   1\. [Refueling](fuel/refueling.md)
+9. [Trunk](trunk/)\
+   1\. [Open Trunk](trunk/open-trunk.md)\
+   2\. [Inventory](trunk/inventory-trunk.md)
+10. [Engine](engine/)\
+    1\. [Engine Sound](engine/engine-sound.md)
 11. [Parking brake](parking-brake.md)
 12. [GearBox](gearbox.md)
 13. [Steering](steering/)\
@@ -73,11 +79,8 @@ Here is the complete list of modules (You can also see this on the sidebar on th
     2\. [Physics](movement/physics/)\
     3\. [Wheels](movement/wheels.md)
 15. [Components](components/)\
-    1\. Skins\
-    2\. Seats\
-    3\. Wheels\
-    4\. Trunks\
-    5\. Fuel\_Tanks
+    1\. [Position](components/position.md)\
+    2\. [Entity Settings](components/entity-settings.md)
 16. [Control](control.md)
 17. [Models](models.md)
 18. [Item](item.md)

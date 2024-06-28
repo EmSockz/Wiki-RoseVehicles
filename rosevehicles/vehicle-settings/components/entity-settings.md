@@ -21,9 +21,7 @@ Base:
 
 An entity that functions as a base for other sub-entities. It is used by other entities as passengers. This technique is necessary to optimize process and to fix the ItemDisplay feature. If no base entity is specified, the base entity will be redefined to another entity
 
-### Type
-
-Entity type. Available variants: `ARMOR_STAND, ITEM_DISPLAY`
+**Type** - Entity type. Available variants: `ARMOR_STAND, ITEM_DISPLAY`
 
 ## Displays
 
@@ -51,6 +49,8 @@ Entity type. Available variants: `ARMOR_STAND, ITEM_DISPLAY`
 </code></pre>
 
 Display entities are used to display the model. You can use only the ArmorStand or the ItemDisplay
+
+**Type** - Entity type. Available variants: `ARMOR_STAND, ITEM_DISPLAY`
 
 **Model** - The model used for this entity. The model is taken from [Models](../models.md)
 
